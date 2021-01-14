@@ -5,6 +5,14 @@ import React from 'react';
 class SearchBar extends React.Component{
     state = {term:" "};
 
+    onFormSubmit(e){
+        // prevent automatic refresh
+        // prevent automatic submission of form
+        e.preventDefault();
+
+        console.log(this.state.term);
+    }
+
     handleChange = (e) => {
         this.setState({
             term: e.target.value
@@ -14,7 +22,7 @@ class SearchBar extends React.Component{
     render() {
         return(
             <div className="ui blue segment">
-                <form className="ui form">
+                <form onSubmit={this.onFormSubmit} className="ui form">
                     <div className="field">
                         <label>Giogle Image Search</label>
                         <div className="ui left icon input">
