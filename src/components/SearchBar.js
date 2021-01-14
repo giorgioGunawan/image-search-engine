@@ -5,7 +5,7 @@ import React from 'react';
 class SearchBar extends React.Component{
     state = {term:" "};
 
-    onFormSubmit(e){
+    onFormSubmit = (e) =>{
         // prevent automatic refresh
         // prevent automatic submission of form
         e.preventDefault();
