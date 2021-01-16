@@ -1,7 +1,7 @@
 {
   "name": "image-search-engine",
   "version": "0.1.0",
-  "homepage": "http://giorgioGunawan.github.io/image-search-engine",
+  "homepage": "http://giorgioGunawan.github.io/image-search-engine/public",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
