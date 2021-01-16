@@ -1,4 +1,5 @@
 import React from 'react';
+import ImageCard from './ImageCard';
 import axios from 'axios';
 import unsplash from '../api/unsplash';
 import SearchBar from './SearchBar';
