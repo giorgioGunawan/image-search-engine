@@ -9,6 +9,7 @@ class SearchBar extends React.Component{
         // prevent automatic refresh
         // prevent automatic submission of form
         e.preventDefault();
+        // cannot return false to prevent default behaviour
         this.props.onSubmit(this.state.term);
     };
 

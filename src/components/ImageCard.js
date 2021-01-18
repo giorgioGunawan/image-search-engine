@@ -6,7 +6,9 @@ class ImageCard extends React.Component{
 
         this.state = {spans: 0};
 
-        // this is how to vcreate a reference
+        // -This is how to vcreate a reference
+        // -We create ref when we need to interact with
+        //  a dom element
         this.imageRef = React.createRef();
     }
 
